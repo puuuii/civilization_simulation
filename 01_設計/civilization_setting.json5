@@ -1,0 +1,149 @@
+{
+    "civilization_parameter": ["数学", "化学", "物理学", "生物学", "工学", "地理学", "農林水産学", "医学", "政治学", "経済学"],     // 文明・国の発展度の間接の元となるパラメータ
+    "civilization_power": ["領地・領民", "経済力", "技術力", "軍事力", "民度"],                                                   // 文明・国の発展度の直接の元となるパラメータ
+    "inventions": {     // 発明設定
+        "農具": {
+            "category": "農林水産学",
+            "level_setting": [
+                {
+                    "comment": "木製の簡単な農具",
+                    "invention_probability": 0.9,
+                    "premises": {
+                        "parameters": [["工学", 1]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [],
+                        "power": [["経済力", 1], ["技術力", 1]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "鉄製の簡単な農具",
+                    "invention_probability": 0.9,
+                    "premises": {
+                        "parameters": [["工学", 2]],
+                        "power": [],
+                        "inventions": [["製鉄", 1]]
+                    },
+                    "impacts": {
+                        "parameters": [],
+                        "power": [["経済力", 2], ["技術力", 2], ["軍事力", 1]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "木製の複雑な農具",
+                    "invention_probability": 0.5,
+                    "premises": {
+                        "parameters": [["工学", 3], ["農林水産学", 3]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [],
+                        "power": [["経済力", 3], ["技術力", 3]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                }
+            ]
+        },
+        "木炭・石炭": {
+            "category": "化学",
+            "level_setting": [
+                {
+                    "comment": "黒色木炭",
+                    "invention_probability": 0.5,
+                    "premises": {
+                        "parameters": [],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [],
+                        "power": [],
+                        "inventions": [["炉・鍛冶場", 1], ["ガラス", 1], ["原動機", 1], ["上下水道", 1], ["製鉄", 1], ["火薬", 1], ["暖房", 1], ["料理環境", 1]]
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "白色木炭",
+                    "invention_probability": 0.3,
+                    "premises": {
+                        "parameters": [["化学", 3]],
+                        "power": [],
+                        "inventions": [["炉・鍛冶場", 1]]
+                    },
+                    "impacts": {
+                        "parameters": [],
+                        "power": [["経済力", 1]],
+                        "inventions": [["製鉄", 2]]
+                    },
+                    "event": {
+                    }
+                }
+            ]
+        },
+        "ガラス": {
+            "category": "工学",
+            "level_setting": [
+                {
+                    "comment": "もろいガラス",
+                    "invention_probability": 0.2,
+                    "premises": {
+                        "parameters": [],
+                        "power": [],
+                        "inventions": [["木炭・石炭", 1], ["炉・鍛冶場", 1]]
+                    },
+                    "impacts": {
+                        "parameters": [["化学", 5], ["物理学", 3], ["工学", 5], ["農林水産学", 3], ["医学", 5]],
+                        "power": [["経済力", 1], ["技術力", 3]],
+                        "inventions": [["蒸留", 2], ["温度計", 1], ["保存食", 2]]
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "硬いガラス",
+                    "invention_probability": 0.4,
+                    "premises": {
+                        "parameters": [["化学", 5]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [["化学", 5], ["物理学", 5], ["工学", 5], ["医学", 5]],
+                        "power": [["経済力", 3], ["技術力", 5]],
+                        "inventions": [["住居", 3]]
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "整形自由なガラス",
+                    "invention_probability": 0.5,
+                    "premises": {
+                        "parameters": [["工学", 50]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [["化学", 5], ["物理学", 5], ["工学", 5], ["医学", 5]],
+                        "power": [["経済力", 5], ["技術力", 5], ["民度", 5]],
+                        "inventions": [["住居", 4]]
+                    },
+                    "event": {
+                    }
+                }
+            ]
+        }
+    }
+}

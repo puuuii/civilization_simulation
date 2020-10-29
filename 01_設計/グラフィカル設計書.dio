@@ -1,6 +1,6 @@
-<mxfile host="65bd71144e" modified="2020-10-29T11:17:20.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="Mqlxocycn5qnjYH6Ptw8" version="13.6.5">
+<mxfile host="65bd71144e" modified="2020-10-29T13:27:30.982Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.0 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="aIDos31a24lN8F0ekPK7" version="13.6.5">
     <diagram id="Hml3C1bSp_uLjsfV2yY4" name="発明フロー図">
-        <mxGraphModel dx="2006" dy="1592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1768" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="HTTCc7BETmfh2jHcDv9F-0"/>
                 <mxCell id="HTTCc7BETmfh2jHcDv9F-1" parent="HTTCc7BETmfh2jHcDv9F-0"/>
@@ -10,7 +10,7 @@
                 <mxCell id="15vgdKJO_0gSsuf9lGo--10" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#666666;" parent="HTTCc7BETmfh2jHcDv9F-1" source="IHxV3SC73tPRu1RLsCbI-1" target="-kC5ediKRFF-yKJu43k6-0" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="jsnWgvFJp7m_y5k1BQA0-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#666666;" parent="HTTCc7BETmfh2jHcDv9F-1" source="lw9KRS8-v7y3yGMd158O-0" target="Dbr0C-WJxfYOp78xR_JG-0" edge="1">
+                <mxCell id="jsnWgvFJp7m_y5k1BQA0-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#666666;" parent="HTTCc7BETmfh2jHcDv9F-1" source="Sn5-mBdgM8zfP3UNiHoN-0" target="Dbr0C-WJxfYOp78xR_JG-0" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="XReN1oJN_4p1rs_f8T-Q-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#666666;" parent="HTTCc7BETmfh2jHcDv9F-1" source="orQiS28H_-HDRUKgwxow-0" target="-kC5ediKRFF-yKJu43k6-0" edge="1">
@@ -76,9 +76,6 @@
                             <mxPoint x="-60" y="60"/>
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="Sn5-mBdgM8zfP3UNiHoN-0" value="ガラス" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#314354;glass=0;fontColor=#ffffff;gradientDirection=east;rounded=1;fillColor=#647687;" parent="HTTCc7BETmfh2jHcDv9F-1" vertex="1">
-                    <mxGeometry x="-360" y="40" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="_3wUcc4vJyXXqYRv7iyH-13" value="化学" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#666666;glass=0;fontColor=#333333;fillColor=#FFE6CC;rounded=1;" parent="HTTCc7BETmfh2jHcDv9F-1" vertex="1">
                     <mxGeometry x="-590" y="-560" width="80" height="40" as="geometry"/>
@@ -167,7 +164,7 @@
                 <mxCell id="gBRz2u1BvC-VdU7EH6nq-0" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#666666;fontColor=#242424;fillColor=#f5f5f5;curved=1;" parent="HTTCc7BETmfh2jHcDv9F-1" source="lw9KRS8-v7y3yGMd158O-0" target="Sn5-mBdgM8zfP3UNiHoN-0" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="lhSFcBFZjF5iDJUtTFF3-0" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#666666;fontColor=#242424;dashed=1;fillColor=#f5f5f5;curved=1;" parent="HTTCc7BETmfh2jHcDv9F-1" source="lw9KRS8-v7y3yGMd158O-0" target="XOB_Azzf9ECYlFCiNjfn-0" edge="1">
+                <mxCell id="lhSFcBFZjF5iDJUtTFF3-0" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#666666;fontColor=#242424;dashed=1;fillColor=#f5f5f5;curved=1;startArrow=classic;startFill=1;" parent="HTTCc7BETmfh2jHcDv9F-1" source="lw9KRS8-v7y3yGMd158O-0" target="XOB_Azzf9ECYlFCiNjfn-0" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="JC4YpbuUYEj5rmakHz76-1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeColor=#666666;" parent="HTTCc7BETmfh2jHcDv9F-1" source="lw9KRS8-v7y3yGMd158O-0" target="JC4YpbuUYEj5rmakHz76-0" edge="1">
@@ -225,7 +222,17 @@
                 <mxCell id="I0iv-IHDvsy2OHSowOFH-0" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#666666;" parent="HTTCc7BETmfh2jHcDv9F-1" source="XOB_Azzf9ECYlFCiNjfn-0" target="zk6BvxhDfVWAGiS1f2kL-1" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="XOB_Azzf9ECYlFCiNjfn-0" value="&lt;span style=&quot;&quot;&gt;炉（窯）・鍛冶場&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#314354;glass=0;gradientDirection=east;rounded=1;fillColor=#647687;fontColor=#FFFFFF;" parent="HTTCc7BETmfh2jHcDv9F-1" vertex="1">
+                <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;fontSize=14;fontColor=#000000;curved=1;strokeColor=#666666;" edge="1" parent="HTTCc7BETmfh2jHcDv9F-1" source="XOB_Azzf9ECYlFCiNjfn-0" target="Sn5-mBdgM8zfP3UNiHoN-0">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-270" y="-20"/>
+                            <mxPoint x="-270" y="20"/>
+                            <mxPoint x="-380" y="20"/>
+                            <mxPoint x="-380" y="60"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="XOB_Azzf9ECYlFCiNjfn-0" value="&lt;span&gt;炉・鍛冶場&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#314354;glass=0;gradientDirection=east;rounded=1;fillColor=#647687;fontColor=#FFFFFF;" parent="HTTCc7BETmfh2jHcDv9F-1" vertex="1">
                     <mxGeometry x="-360" y="-40" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="3ZYC5zpfR9Kvv13T7q-n-2" value="住居" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#666666;glass=0;fontColor=#333333;gradientDirection=east;rounded=1;fillColor=#FFFFFF;" parent="HTTCc7BETmfh2jHcDv9F-1" vertex="1">
@@ -368,6 +375,11 @@
                 <mxCell id="S-0KI0el6zc-kuUa1VV0-2" value="経済力" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#666666;glass=0;fontColor=#333333;fillColor=#f5f5f5;rounded=1;" parent="HTTCc7BETmfh2jHcDv9F-1" vertex="1">
                     <mxGeometry x="-410" y="-510" width="80" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="HTTCc7BETmfh2jHcDv9F-1" source="S-0KI0el6zc-kuUa1VV0-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-279.7647058823529" y="-450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="S-0KI0el6zc-kuUa1VV0-3" value="技術力" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#666666;glass=0;fontColor=#333333;fillColor=#f5f5f5;rounded=1;" parent="HTTCc7BETmfh2jHcDv9F-1" vertex="1">
                     <mxGeometry x="-320" y="-510" width="80" height="40" as="geometry"/>
                 </mxCell>
@@ -389,7 +401,7 @@
                 <mxCell id="5Iz_TNSjgTqwmQJaPwpB-0" value="&lt;span style=&quot;&quot;&gt;原動機&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#314354;glass=0;gradientDirection=east;rounded=1;fillColor=#647687;" parent="HTTCc7BETmfh2jHcDv9F-1" vertex="1">
                     <mxGeometry x="-40" y="-120" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="jsnWgvFJp7m_y5k1BQA0-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#666666;" parent="HTTCc7BETmfh2jHcDv9F-1" source="lw9KRS8-v7y3yGMd158O-0" target="5Iz_TNSjgTqwmQJaPwpB-0" edge="1">
+                <mxCell id="jsnWgvFJp7m_y5k1BQA0-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#666666;" parent="HTTCc7BETmfh2jHcDv9F-1" source="Sn5-mBdgM8zfP3UNiHoN-0" target="5Iz_TNSjgTqwmQJaPwpB-0" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-440" y="60" as="sourcePoint"/>
                         <mxPoint x="440" y="-260" as="targetPoint"/>
@@ -445,6 +457,24 @@
                 </mxCell>
                 <mxCell id="aUE0gkNqFB7O7c7i3Uo4-0" value="火薬" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#314354;glass=0;fontColor=#ffffff;gradientDirection=east;rounded=1;fillColor=#647687;" parent="HTTCc7BETmfh2jHcDv9F-1" vertex="1">
                     <mxGeometry x="-200" y="280" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="1" value="※「ガラス」や「製鉄」など、後続の影響数が多過ぎるものについては線を省略する" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;fontSize=14;" vertex="1" parent="HTTCc7BETmfh2jHcDv9F-1">
+                    <mxGeometry x="-680" y="-350" width="550" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#666666;" edge="1" parent="HTTCc7BETmfh2jHcDv9F-1" source="lw9KRS8-v7y3yGMd158O-0" target="Sn5-mBdgM8zfP3UNiHoN-0">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-440" y="59.94117647058806" as="sourcePoint"/>
+                        <mxPoint x="120" y="-20" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Sn5-mBdgM8zfP3UNiHoN-0" value="ガラス" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#314354;glass=0;fontColor=#ffffff;gradientDirection=east;rounded=1;fillColor=#647687;" parent="HTTCc7BETmfh2jHcDv9F-1" vertex="1">
+                    <mxGeometry x="-360" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#666666;" edge="1" parent="HTTCc7BETmfh2jHcDv9F-1" source="lw9KRS8-v7y3yGMd158O-0" target="Sn5-mBdgM8zfP3UNiHoN-0">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-440" y="59.94117647058806" as="sourcePoint"/>
+                        <mxPoint x="-40" y="-100" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
