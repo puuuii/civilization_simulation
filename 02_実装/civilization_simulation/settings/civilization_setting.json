@@ -52,6 +52,22 @@
                     },
                     "event": {
                     }
+                },
+                {
+                    "comment": "鉄製の複雑な農具",
+                    "invention_probability": 0.9,
+                    "premises": {
+                        "parameters": [["工学", 5]],
+                        "power": [],
+                        "inventions": [["製鉄", 1]]
+                    },
+                    "impacts": {
+                        "parameters": [],
+                        "power": [["経済力", 5], ["技術力", 5]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
                 }
             ]
         },
@@ -139,6 +155,144 @@
                         "parameters": [["化学", 5], ["物理学", 5], ["工学", 5], ["医学", 5]],
                         "power": [["経済力", 5], ["技術力", 5], ["民度", 5]],
                         "inventions": [["住居", 4]]
+                    },
+                    "event": {
+                    }
+                }
+            ]
+        },
+        "歯車": {
+            "category": "物理学",
+            "level_setting": [
+                {
+                    "comment": "木製の粗雑な歯車",
+                    "invention_probability": 0.5,
+                    "premises": {
+                        "parameters": [["工学", 15]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [["物理学", 5]],
+                        "power": [["技術力", 5]],
+                        "inventions": [["水車・風車", 1]]
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "鉄製の粗雑な歯車",
+                    "invention_probability": 0.9,
+                    "premises": {
+                        "parameters": [["工学", 20]],
+                        "power": [],
+                        "inventions": [["製鉄", 1]]
+                    },
+                    "impacts": {
+                        "parameters": [["物理学", 7]],
+                        "power": [["技術力", 7]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "木製の精密な歯車",
+                    "invention_probability": 0.9,
+                    "premises": {
+                        "parameters": [["工学", 70]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [["物理学", 10]],
+                        "power": [["技術力", 10]],
+                        "inventions": [["水車・風車", 2]]
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "鉄製の精密な歯車",
+                    "invention_probability": 0.9,
+                    "premises": {
+                        "parameters": [["工学", 75]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [["物理学", 15]],
+                        "power": [["技術力", 15]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                }
+            ]
+        },
+        "貨幣": {
+            "category": "経済学",
+            "level_setting": [
+                {
+                    "comment": "物々交換",
+                    "invention_probability": 0.5,
+                    "premises": {
+                        "parameters": [["経済学", 5]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [],
+                        "power": [["経済力", 3]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "非金属貨幣",
+                    "invention_probability": 0.3,
+                    "premises": {
+                        "parameters": [["経済学", 10]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [],
+                        "power": [["経済力", 7]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "金属貨幣",
+                    "invention_probability": 0.9,
+                    "premises": {
+                        "parameters": [["経済学", 20]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [],
+                        "power": [["経済力", 5]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "紙幣",
+                    "invention_probability": 0.7,
+                    "premises": {
+                        "parameters": [["経済学", 20]],
+                        "power": [],
+                        "inventions": [["紙", 1]]
+                    },
+                    "impacts": {
+                        "parameters": [],
+                        "power": [["経済力", 10]],
+                        "inventions": []
                     },
                     "event": {
                     }
