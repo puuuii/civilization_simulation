@@ -1,6 +1,12 @@
 <template>
-  <top-page @on_click_next="on_click_next_from_toppage" v-if="is_toppage"/>
-  <simulation-page v-if="is_simpage"/>
+<div class="uk-section">
+    <div class="uk-container uk-card-default">
+
+      <top-page @on_click_next="on_click_next_from_toppage" v-if="is_toppage"/>
+      <simulation-page v-if="is_simpage"/>
+
+    </div>
+</div>
 </template>
 
 <script lang="ts">
@@ -42,4 +48,7 @@ export default defineComponent({
 </script>
 
 <style>
+.uk-container,.uk-card-default {
+  padding: 5rem;
+}
 </style>

@@ -1,25 +1,19 @@
 <template>
-<div class="uk-section">
-    <div class="uk-container uk-card-default">
+<next-button @on_click_next="on_click_next"/>
 
-      <next-button @on_click_next="on_click_next"/>
+<input-config :config="config"/>
 
-      <input-config :config="config"/>
+<hr>
 
-      <hr>
+<title-slider title="文明パラメータ" :items="config['civilization_parameter']"/>
 
-      <title-slider title="文明パラメータ" :items="config['civilization_parameter']"/>
+<hr>
 
-      <hr>
+<title-slider title="文明力" :items="config['civilization_power']"/>
 
-      <title-slider title="文明力" :items="config['civilization_power']"/>
+<hr>
 
-      <hr>
-
-      <invention-list :inventions="config['inventions']"/>
-
-    </div>
-</div>
+<invention-list :inventions="config['inventions']"/>
 </template>
 
 <script lang="ts">

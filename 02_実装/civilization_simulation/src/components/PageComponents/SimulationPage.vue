@@ -1,15 +1,7 @@
 <template>
-<div class="uk-section">
-    <div class="uk-container uk-card-default">
+<div class="uk-panel"><span class="uk-align-right">{{ display_world_time }}</span></div>
 
-      <div class="uk-panel">
-        <span class="uk-align-right">{{ display_world_time }}</span>
-      </div>
-
-      <speedup-button :speed_mapping="speed_mapping" @change_speed='change_speed'/>
-
-    </div>
-</div>
+<speedup-button :speed_mapping="speed_mapping" @change_speed='change_speed'/>
 </template>
 
 <script lang="ts">
@@ -73,9 +65,6 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.uk-container,.uk-card-default {
-  padding: 5rem;
-}
 img {
   height: 2em;
   margin: 0.5em;
