@@ -1,5 +1,7 @@
 <template>
-<div id="game-app"></div>
+<div width="100%">
+  <div id="game-app"></div>
+</div>
 </template>
 
 <script lang="ts">
@@ -14,23 +16,23 @@ import { Game } from '../../tses/scenes/game';
 export default defineComponent({
   name: 'SimulationPage',
   components: {
-    SpeedupButton
   },
   setup(props, context) {
     // data
     const config = JSON.parse(localStorage.getItem('config') as string);
+    const resolution = { width: 1280, height: 760 };
 
     // mounted
     onMounted(() => {
       const game = new Phaser.Game({
         type: Phaser.AUTO,
         parent: 'game-app',
-        width: 1280,
-        height: 760,
+        width: resolution.width,
+        height: resolution.height,
         audio: {
           disableWebAudio: true
         },
-        scene: [ Top ]
+        scene: [ Top, Setting, CreateWorld, Game ]
       });
     });
 
@@ -41,8 +43,8 @@ export default defineComponent({
 </script>
 
 <style scoped>
-img {
-  height: 2em;
-  margin: 0.5em;
+#game-app {
+  width: fit-content;
+  margin: 2rem auto 0 auto;
 }
 </style>
