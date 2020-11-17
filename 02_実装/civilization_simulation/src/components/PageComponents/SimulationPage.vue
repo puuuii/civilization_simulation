@@ -6,7 +6,10 @@
 import { defineComponent, reactive, computed, onMounted } from 'vue';
 import SpeedupButton from '../OtherComponents/SpeedupButton.vue';
 import * as Phaser from 'phaser';
-import { MyScene } from '../../tses/scenes/top';
+import { Top } from '../../tses/scenes/top';
+import { Setting } from '../../tses/scenes/setting';
+import { CreateWorld } from '../../tses/scenes/createWorld';
+import { Game } from '../../tses/scenes/game';
 
 export default defineComponent({
   name: 'SimulationPage',
@@ -27,7 +30,7 @@ export default defineComponent({
         audio: {
           disableWebAudio: true
         },
-        scene: [ MyScene ]
+        scene: [ Top ]
       });
     });
 

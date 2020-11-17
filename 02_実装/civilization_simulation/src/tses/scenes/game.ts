@@ -1,10 +1,10 @@
 import * as Phaser from 'phaser';
 
-export class Top extends Phaser.Scene {
+export class Game extends Phaser.Scene {
   // propetry
 
   constructor() {
-    super('Top');
+    super('Game');
   }
 
   preload() {
