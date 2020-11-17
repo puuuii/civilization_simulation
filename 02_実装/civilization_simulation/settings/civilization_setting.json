@@ -287,11 +287,133 @@
                     "premises": {
                         "parameters": [["経済学", 20]],
                         "power": [],
-                        "inventions": [["紙", 1]]
+                        "inventions": [["記録媒体", 5]]
                     },
                     "impacts": {
                         "parameters": [],
                         "power": [["経済力", 10]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                }
+            ]
+        },
+        "記録媒体": {
+            "category": "地理学",
+            "level_setting": [
+                {
+                    "comment": "粘土板",
+                    "invention_probability": 0.8,
+                    "premises": {
+                        "parameters": [],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [["数学", 1], ["政治学", 1]],
+                        "power": [["民度", 1]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "木簡",
+                    "invention_probability": 1,
+                    "premises": {
+                        "parameters": [],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [["数学", 1], ["政治学", 1]],
+                        "power": [["民度", 1]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "羊皮紙",
+                    "invention_probability": 0.5,
+                    "premises": {
+                        "parameters": [["化学", 5], ["生物学", 5]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [["数学", 3], ["政治学", 3]],
+                        "power": [["民度", 3], ["技術力", 3]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "パピルス",
+                    "invention_probability": 0.5,
+                    "premises": {
+                        "parameters": [["地理学", 5], ["生物学", 5]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [["政治学", 3]],
+                        "power": [["民度", 3], ["技術力", 3]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "紙",
+                    "invention_probability": 0.5,
+                    "premises": {
+                        "parameters": [["化学", 7], ["地理学", 7], ["生物学", 7]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [["数学", 10], ["政治学", 10], ["経済学", 15]],
+                        "power": [["軍事力", 10], ["民度", 10], ["技術力", 10]],
+                        "inventions": [["貨幣", 4]]
+                    },
+                    "event": {
+                    }
+                }
+            ]
+        },
+        "ゴム": {
+            "category": "化学",
+            "level_setting": [
+                {
+                    "comment": "天然ゴム",
+                    "invention_probability": 0.1,
+                    "premises": {
+                        "parameters": [["地理学", 3], ["農林水産学", 5]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [["化学", 5], ["物理学", 2], ["工学", 5], ["医学", 2]],
+                        "power": [["軍事力", 5], ["民度", 5], ["技術力", 3]],
+                        "inventions": []
+                    },
+                    "event": {
+                    }
+                },
+                {
+                    "comment": "合成ゴム",
+                    "invention_probability": 0.1,
+                    "premises": {
+                        "parameters": [["化学", 70], ["工学", 70]],
+                        "power": [],
+                        "inventions": []
+                    },
+                    "impacts": {
+                        "parameters": [["化学", 7], ["物理学", 7], ["工学", 5], ["医学", 5]],
+                        "power": [["軍事力", 3], ["民度", 7], ["技術力", 10]],
                         "inventions": []
                     },
                     "event": {
