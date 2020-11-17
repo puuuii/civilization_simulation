@@ -1,12 +1,6 @@
 <template>
-<div class="uk-section">
-    <div class="uk-container uk-card-default">
-
-      <top-page @on_click_next="on_click_next_from_toppage" v-if="is_toppage"/>
-      <simulation-page v-if="is_simpage"/>
-
-    </div>
-</div>
+<top-page @on_click_next="on_click_next_from_toppage" v-if="is_toppage"/>
+<simulation-page v-if="is_simpage"/>
 </template>
 
 <script lang="ts">
